@@ -24,18 +24,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# ═══════════════════════════════════════════════════════════════════════════
-# 🔑 CONFIGURAÇÕES - JÁ PREENCHIDAS!
-# ═══════════════════════════════════════════════════════════════════════════
 
-
-
-# ═══════════════════════════════════════════════════════════════════════════
-
-# Clientes
-client = Anthropic(api_key=API_KEY_ANTHROPIC)
-bot1 = Bot(token=TOKEN_BOT1)
-bot2 = Bot(token=TOKEN_BOT2)
 
 # ═════════════════════════════════════════════════════════════════════════════
 # BOT 1: MARKET INTELLIGENCE - System Prompt
